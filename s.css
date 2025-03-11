@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+h2, h3, h4 {
+    font-family: sans-serif ;
+    color: black;   
+}
+
+h5 {
+    color: black;
+}
+
+p {
+    font-size: 25px;
+}
+
+body {
+    background-color: #bdc3c7;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-link:active {
+    transform: translateX(10px);
+}
+
+.nav-link {
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-link:active {
+    transform: translateX(10px);
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.profile {
+    text-align: center;
+}
+
+.featured-image {
+    border: 5px solid black;
+    width: 50%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile img {
+    width: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.jumbotron{
+    font-size: 25px;
+    color:  black ;
+    text-align: center;
+    background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWJrMzl2d2VwNHNiMXNzdWZpajNnZDAxZ2pzZm9renVxaXhpdWtodCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Zp1DfdbPy8LkYXxoNA/giphy.gif");
+    background-repeat: repeat;
+    background-size: cover; 
+    background-position: center; 
+    padding: 100px; ;
+}
+
+.jumbotron20{
+    font-size: 25px;
+    color:  black ;
+    text-align: center;
+    background-image: url("https://i.gifer.com/27b.gif");
+    background-repeat: repeat;
+    background-repeat: repeat;
+    background-size: cover; 
+    background-position: center; 
+    padding: 100px;
+}
+
+.jumbotron30{
+    font-size: 25px;
+    color:  lightgray ;
+    text-align: center;
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTV1bWlnYXZmMzBzb2lzZTJuOXliM3Exb2Z4cHE1Ymlnczk5N3lyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/p3K9tRGVitrDQHlPkG/giphy.gif");
+    background-repeat: repeat;
+    background-size: cover; 
+    background-position: center; 
+    padding: 100px;
+}
+
+.jumbotron40{
+    font-size: 25px;
+    color:  white;
+    text-align: center;
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2Vsa3E2YjB6d2x5bG54cnk3YWM1OGo2YXc2c24xdTZxdmM3dHFxOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tLhgQSpk3xgwrs6L46/giphy.gif");
+    background-repeat: repeat;
+    background-size: cover; 
+    background-position: center; 
+    padding: 100px;
+}
+
+nav ul {
+    padding-inline: 4rem;
+    display: flex;
+    gap: 2rem;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav {
+    background-color: black;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    gap: 1.5rem;
+}
+
+#content {
+    flex: 5;
+}
+
+aside {
+    flex: 2;
+}
+
+.featured-image2{
+    border: 5px solid black;
+}
+
+header {
+    display: inline;
+}
+
+@media screen and (max-width: 1000px) {
+    #content, aside {
+    width: 100%;
+    padding: 0;
+    }
+}
+
+.aside-box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.btn{
+    bottom: 10px;
+    margin-right: 150px;
+    padding: 10px 20px;
+    display: flex;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn2{
+    bottom: 10px;
+    padding: 10px 20px;
+    display: flex;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.f {
+    display: flex;
+    gap : 550px; 
+}
+
+footer {
+    background: linear-gradient(to right, #000000,gray, #99a3a4 ,gray, black);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+} 

@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to left,black,blue,black);
+    color: white;
+}
+
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav a{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+    position: sticky;
+}
+
+nav a:hover,
+nav a.active{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+article {
+    background-color: black;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(255, 255, 255);
+}
+
+article h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+article ul, article ol {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+article li {
+    font-size: 1rem;
+}
+
+
+.article-img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right,black,blue,black);
+    color: white;
+    margin-top: 30px;
+}
+
+/* Slider Container */
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Individual Slides */
+.slide {
+    width: 100%;
+    display: none;
+    animation: slide 1s ease-in-out;
+}
+
+/* Active Slide */
+.slide.active {
+    display: block;
+}
+
+/* Keyframes for Slide Animation */
+@keyframes slide {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Navigation Buttons (Optional) */
+.slider-nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.slider-nav button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.slider-nav button:hover {
+    background-color: darkblue;
+}
